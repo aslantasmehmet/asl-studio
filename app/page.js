@@ -190,7 +190,7 @@ export default function Home() {
                   <div className="space-y-12 sm:space-y-16">
                     <div className="max-w-2xl xl:max-w-3xl">
                       <blockquote className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed mb-6 sm:mb-8">
-                        "We have collaborated with ASL Studio on a couple of tasks related with our app. They were cooperative, coachable and was capable of delivering the tasks."
+                        &ldquo;We have collaborated with ASL Studio on a couple of tasks related with our app. They were cooperative, coachable and was capable of delivering the tasks.&rdquo;
                       </blockquote>
                       
                       <div className="flex items-center space-x-4">
@@ -206,7 +206,7 @@ export default function Home() {
 
                     <div className="max-w-2xl xl:max-w-3xl">
                       <blockquote className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed mb-6 sm:mb-8">
-                        "ASL Studio have very successful communication skills and business ethics. I highly recommend them."
+                        &ldquo;ASL Studio have very successful communication skills and business ethics. I highly recommend them.&rdquo;
                       </blockquote>
                       
                       <div className="flex items-center space-x-4">
@@ -222,7 +222,7 @@ export default function Home() {
 
                     <div className="max-w-2xl xl:max-w-3xl">
                       <blockquote className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed mb-6 sm:mb-8">
-                        "ASL Studio's attention to detail and innovative approach made our project a huge success. Their team exceeded our expectations."
+                        &ldquo;ASL Studio&rsquo;s attention to detail and innovative approach made our project a huge success. Their team exceeded our expectations.&rdquo;
                       </blockquote>
                       
                       <div className="flex items-center space-x-4">
