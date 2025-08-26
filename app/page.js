@@ -56,9 +56,14 @@ export default function Home() {
                   
                   <div className="flex items-end justify-between">
                     <div className="w-24 h-24 sm:w-32 sm:h-32 bg-black rounded-full flex items-center justify-center">
-                      <button className="text-white text-xs sm:text-sm font-medium text-center leading-tight">
+                      <a 
+                        href="https://cal.com/madebyasl" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-white text-xs sm:text-sm font-medium text-center leading-tight hover:opacity-80 transition-opacity"
+                      >
                         BOOK A<br />CALL
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -185,36 +190,49 @@ export default function Home() {
                   <div className="space-y-12 sm:space-y-16">
                     <div className="max-w-2xl xl:max-w-3xl">
                       <blockquote className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed mb-6 sm:mb-8">
-                        "We have collaborated with Echo Studio on a couple of tasks related with our app. They were cooperative, coachable and was capable of delivering the tasks."
+                        "We have collaborated with ASL Studio on a couple of tasks related with our app. They were cooperative, coachable and was capable of delivering the tasks."
                       </blockquote>
                       
                       <div className="flex items-center space-x-4">
-                        <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                          <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
+                        <div className="w-12 h-12 rounded-full overflow-hidden">
+                          <img src="/avatar1.png" alt="Hasan" className="w-full h-full object-cover" />
                         </div>
                         <div>
-                          <div className="text-black font-semibold text-base">Mustafa</div>
-                          <div className="text-gray-600 text-sm">Crypto-based Social Media</div>
+                          <div className="text-black font-semibold text-base">Hasan</div>
+                          <div className="text-gray-600 text-sm">Çalışkanbey Logistics - Logistics Control Platform</div>
                         </div>
                       </div>
                     </div>
 
                     <div className="max-w-2xl xl:max-w-3xl">
                       <blockquote className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed mb-6 sm:mb-8">
-                        "Echo Studio have very successful communication skills and business ethics. I highly recommend them."
+                        "ASL Studio have very successful communication skills and business ethics. I highly recommend them."
                       </blockquote>
                       
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center space-x-4">
-                          <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                            <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
-                          </div>
-                          <div>
-                            <div className="text-black font-semibold text-base">Selin</div>
-                            <div className="text-gray-600 text-sm">Photo Editing</div>
-                          </div>
+                      <div className="flex items-center space-x-4">
+                        <div className="w-12 h-12 rounded-full overflow-hidden">
+                          <img src="/avatar2.png" alt="Müge" className="w-full h-full object-cover" />
                         </div>
-                        <div className="w-4 h-4 bg-black rounded-full"></div>
+                        <div>
+                          <div className="text-black font-semibold text-base">Müge</div>
+                          <div className="text-gray-600 text-sm">Mobile Application</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="max-w-2xl xl:max-w-3xl">
+                      <blockquote className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed mb-6 sm:mb-8">
+                        "ASL Studio's attention to detail and innovative approach made our project a huge success. Their team exceeded our expectations."
+                      </blockquote>
+                      
+                      <div className="flex items-center space-x-4">
+                        <div className="w-12 h-12 rounded-full overflow-hidden">
+                          <img src="/avatar3.png" alt="Salim" className="w-full h-full object-cover" />
+                        </div>
+                        <div>
+                          <div className="text-black font-semibold text-base">Salim</div>
+                          <div className="text-gray-600 text-sm">E-commerce Platform</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -263,12 +281,12 @@ export default function Home() {
                     <div>
                       <h3 className="text-black text-lg font-semibold mb-4 sm:mb-6">Address</h3>
                       <div className="space-y-2 text-gray-600 text-sm">
-                        <div>United States</div>
-                        <div>8 The Green STE D Dover, County of</div>
-                        <div>Kent, Delaware19901</div>
+                        <div>Turkey</div>
+                        <div>Bademli Street No:2</div>
+                        <div>Mevlana,Talas  Kayseri 38280</div>
                         <div className="mt-4 sm:mt-6">
-                          <div>P: 3740 213 301</div>
-                          <div>E: hello@madebyecho.com</div>
+                          <div>P: +90 507 911 04 66</div>
+                          <div>E: hello@madebyasl.com</div>
                         </div>
                       </div>
                     </div>
@@ -277,7 +295,7 @@ export default function Home() {
                       <h3 className="text-black text-lg font-semibold mb-4 sm:mb-6">Social</h3>
                       <div className="text-black hover:text-gray-600 cursor-pointer transition-colors">
                         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                         </svg>
                       </div>
                     </div>
