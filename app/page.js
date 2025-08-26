@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Navbar from './components/Navbar';
 
 export default function Home() {
@@ -195,7 +196,7 @@ export default function Home() {
                       
                       <div className="flex items-center space-x-4">
                         <div className="w-12 h-12 rounded-full overflow-hidden">
-                          <img src="/avatar1.png" alt="Hasan" className="w-full h-full object-cover" />
+                          <Image src="/avatar1.png" alt="Hasan" width={48} height={48} className="w-full h-full object-cover" />
                         </div>
                         <div>
                           <div className="text-black font-semibold text-base">Hasan</div>
@@ -211,7 +212,7 @@ export default function Home() {
                       
                       <div className="flex items-center space-x-4">
                         <div className="w-12 h-12 rounded-full overflow-hidden">
-                          <img src="/avatar2.png" alt="Müge" className="w-full h-full object-cover" />
+                          <Image src="/avatar2.png" alt="Müge" width={48} height={48} className="w-full h-full object-cover" />
                         </div>
                         <div>
                           <div className="text-black font-semibold text-base">Müge</div>
@@ -227,7 +228,7 @@ export default function Home() {
                       
                       <div className="flex items-center space-x-4">
                         <div className="w-12 h-12 rounded-full overflow-hidden">
-                          <img src="/avatar3.png" alt="Salim" className="w-full h-full object-cover" />
+                          <Image src="/avatar3.png" alt="Salim" width={48} height={48} className="w-full h-full object-cover" />
                         </div>
                         <div>
                           <div className="text-black font-semibold text-base">Salim</div>
@@ -261,7 +262,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row sm:items-start justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mb-16 sm:mb-20 lg:mb-24">
                     <div className="text-black text-xl sm:text-2xl font-medium">Footer</div>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-black leading-tight">
-                      Let's connect
+                      Let&apos;s connect
                     </h2>
                   </div>
                   
