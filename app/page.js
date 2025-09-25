@@ -32,7 +32,7 @@ export default function Home() {
       />
       
       {/* 01. Bölüm - SAĞ TARAF */}
-      <div className="pt-32 min-h-screen bg-white px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="pt-32 min-h-screen bg-white px-10 sm:px-12 lg:px-16 xl:px-20">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="grid grid-cols-12 gap-4 sm:gap-6 lg:gap-8">
             <div className="col-span-12">
@@ -56,7 +56,7 @@ export default function Home() {
                   </div>
                   
                   <div className="flex items-end justify-between">
-                    <div className="w-24 h-24 sm:w-32 sm:h-32 bg-black rounded-full flex items-center justify-center">
+                    <div className="w-40 h-40 sm:w-48 sm:h-48 bg-black rounded-full flex items-center justify-center">
                       <a 
                         href="https://cal.com/madebyasl" 
                         target="_blank" 
@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
       {/* 02. Bölüm - SOL TARAF */}
-      <div className="min-h-screen bg-white py-16 sm:py-20 px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="min-h-screen bg-white py-0 px-6 sm:px-8 lg:px-12 xl:px-16">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="grid grid-cols-12 gap-8 sm:gap-12 lg:gap-16">
             <div className="col-span-12">
@@ -283,10 +283,9 @@ export default function Home() {
                       <h3 className="text-black text-lg font-semibold mb-4 sm:mb-6">Address</h3>
                       <div className="space-y-2 text-gray-600 text-sm">
                         <div>Turkey</div>
-                        <div>Bademli Street No:2</div>
-                        <div>Mevlana,Talas  Kayseri 38280</div>
+                        <div>Talas  Kayseri 38280</div>
                         <div className="mt-4 sm:mt-6">
-                          <div>P: +90 507 911 04 66</div>
+                          <div>P: (+90) 544 995 44 04</div>
                           <div>E: hello@madebyasl.com</div>
                         </div>
                       </div>
@@ -294,11 +293,16 @@ export default function Home() {
                     
                     <div>
                       <h3 className="text-black text-lg font-semibold mb-4 sm:mb-6">Social</h3>
-                      <div className="text-black hover:text-gray-600 cursor-pointer transition-colors">
+                      <a 
+                        href="https://www.linkedin.com/company/madebyasl" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-gray-600 cursor-pointer transition-colors inline-block"
+                      >
                         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                         </svg>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
